@@ -1,0 +1,30 @@
+#container1{
+    border: 0px solid red;
+    height: 20px;
+    display: flex;padding: 2px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0%;
+    background-color: #eeeeee;
+    color: grey;
+}
+#container1>:nth-child(1){
+    border: 0px solid blue;
+    width: 30%;height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 160px;
+}
+
+
+#container1>:nth-child(2){
+    border: 0px solid blue;
+    width: 10%;height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 160px;
+}
+
+
