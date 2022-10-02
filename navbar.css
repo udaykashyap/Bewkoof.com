@@ -6,14 +6,15 @@
     align-items: center;
     margin-top: 0%;
     background-color: #eeeeee;
-    color: grey;
+    color: grey;font-weight: 100;
+    font-size: large;
 }
 #container1>:nth-child(1){
     border: 0px solid blue;
     width: 30%;height: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;font-weight:lighter;
     margin-left: 160px;
     text-decoration: none;
 }
@@ -22,7 +23,7 @@
 #container1>:nth-child(2){
     border: 0px solid blue;
     width: 10%;height: 100%;
-    display: flex;
+    display: flex;font-weight: 100;
     justify-content: space-around;
     align-items: center;
     margin-right: 160px;
@@ -36,4 +37,9 @@
 body ::selection {
     color: #fff;
     background: #fdd835;
+}
+#nav{
+    border: 0px solid green;
+    position: fixed; width: 100%;
+    background-color: #fff;top: 0;
 }

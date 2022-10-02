@@ -73,3 +73,42 @@
     border-bottom: 3px solid rgb(255, 217, 0);;
     overflow: hidden;
 }
+@media all and (min-width:350px) and (max-width:750px){
+    #container1{
+        display: none;
+        
+    }
+    #container{
+        
+    }
+    #logo{
+        width: 100px;height: 80px;
+        
+    }
+    #container>:nth-child(1){
+        border: 0px solid blue;
+        width: 50%;height: auto;
+       font-size: small;
+        margin-left: 10px;
+        
+    }
+    #container>:nth-child(2){
+        border: 0px solid red;
+        width: 30%;display: flex;
+        justify-content: space-evenly;
+        margin-right: 10px;
+        align-items: center;
+    }
+    
+   
+    #ab button{
+        border: 0px solid;border-radius: 50px;
+        width: 40px;height: 100%;
+        background-color: rgb(226, 226, 226);
+    }
+    #ab input{
+        background: transparent; width: 0px;
+        border: 0px; flex: 1;outline: none;border-radius: 50px;
+    }
+
+}

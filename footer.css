@@ -35,7 +35,7 @@ hr{
 }
 #input1{
     background: transparent; width: 130px;
-    border: 0px;outline: none;height: 25px;
+    border: 0px;outline: none;height: 25px; color: white;
     border-bottom: 2px solid #fdd835;margin-right: -20px;
 }
 form button{
@@ -43,11 +43,27 @@ form button{
     border: 0px;background-color: #fdd835;
     
 }
-.blue{
-    color: #1f9dc3;
-}
+
 .bot2{
     width: 20px;width: 20px;
     display:inline;
     
+}
+
+@media all and (min-width:350px) and (max-width:750px){
+
+    #card{
+        
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,auto);
+        gap: 2px;
+    }
+    .card2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 5px;
+    }
+
 }
